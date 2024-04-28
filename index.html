@@ -26,6 +26,14 @@
     <link rel="stylesheet" href="styles/components//popup.css">
     <link rel="stylesheet" href="styles/animation.css">
     <link rel="stylesheet" href="styles/utils.css">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VPB66VERNY"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-VPB66VERNY');
+    </script>
 </head>
 <body id="body">
     <!---<div class="customCursor"></div>--->
@@ -51,7 +59,7 @@
                     <li><a class="header__link" href="#services">Services</a></li>
                     <li><a class="header__link" href="#contact">contact</a></li>
                     <li class="header__line"></li>
-                    <i id="theme-toggle" class="fa-regular fa-lightbulb"></i>
+                    <li class="bulb"><i id="theme-toggle" class="fa-regular fa-lightbulb"></i></li>
                     <li><a class="header__resume btn"  href="resume/Curriculum vitae.docx">Resume<i class="fa-solid fa-download"></i></a></li>
                 </ul>
                 <button class="header__bars">
@@ -69,7 +77,7 @@
                 <li><a href="#skills" class="mobile-nav__link">Skills</a></li>
                 <li><a href="#services" class="mobile-nav__link">Services</a></li>
                 <li><a href="#contact" class="mobile-nav__link">Contact</a></li>
-                <li><button class="Mobile_nav--btn"><i id="theme-toggle" class="fa-regular fa-lightbulb"></i></button></li>
+                <li><a class="Mobile_nav--btn mobile-nav__link"><i id="theme-toggle" class="fa-regular fa-lightbulb"></i></a></li>
                 <li><a class="mobile-nav__resume btn"  href="resume/Curriculum vitae.docx">Resume<i class="fa-solid fa-download"></i></a></li>
             </ul>
         </nav>

@@ -17,6 +17,7 @@
     /*----colors----*/
     --color1: rgba(52, 7, 136, 0.836);
     --color-dark:#070a13;
+    --mode-clr:#f1f5f9;
     --color-light:#f1f5f9;
     --color-slate400:#94a3b8;
     --color-slate600:#475569;
@@ -58,6 +59,7 @@ html{
         --color-indigo:#4f46e5;
         --color-border:#3434351f;
         --color-nav-links:#f1f5f9;
+        --mode-clr:#ffb67a;
     
 }
 body{
