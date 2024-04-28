@@ -15,12 +15,13 @@
     height: 6rem;
 }
 .hero__subtitle{
-    color:var(--color-slate800);
+    color: var(--color-light);
     font-size: var(--size-xs);
     line-height: 0.9;
 }
 .subtitle1{
     padding-bottom:5px ;
+    color: var(--color-light);
 }
 
 .hero__title{
