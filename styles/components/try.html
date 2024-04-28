@@ -1,0 +1,94 @@
+<html>
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 100%;
+            height: 100vh;
+            overflow-x: hidden;
+            scroll-snap-type: y mandatory;
+        }
+
+        .section {
+            width: 100%;
+            height: 100%;
+            scroll-snap-align: start;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: Arial, sans-serif;
+            font-size: 3rem;
+            color: white;
+        }
+
+        .section:nth-child(odd) {
+            background-color: #333;
+        }
+
+        .section:nth-child(even) {
+            background-color: #666;
+        }
+
+        .content {
+            opacity: 0;
+            transform: translateY(100px);
+            transition: all 0.5s ease-in-out;
+        }
+
+        .active .content {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="section" id="section1">
+            <div class="content">
+                Welcome to my landing page
+            </div>
+        </div>
+        <div class="section" id="section2">
+            <div class="content">
+                This is section 2
+            </div>
+        </div>
+        <div class="section" id="section3">
+            <div class="content">
+                This is section 3
+            </div>
+        </div>
+        <div class="section" id="section4">
+            <div class="content">
+                This is section 4
+            </div>
+        </div>
+    </div>
+    <script>
+        // get all the sections
+        const sections = document.querySelectorAll(".section");
+
+        // add a scroll event listener to the window
+        window.addEventListener("scroll", function() {
+            // loop through each section
+            sections.forEach(function(section) {
+                // get the section's bounding rectangle
+                const rect = section.getBoundingClientRect();
+                // check if the section is in the viewport
+                if (rect.top >= 0 && rect.bottom <= window.innerHeight) {
+                    // add the active class to the section
+                    section.classList.add("active");
+                } else {
+                    // remove the active class from the section
+                    section.classList.remove("active");
+                }
+            });
+        });
+    </script>
+</body>
+</html>
