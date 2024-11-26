@@ -87,9 +87,6 @@
     </div>
     <!----------------end mobile nav-->
     <main>
-        <a href="https://wa.me/+211929925502" id="whatsappButton" target="_blank">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
-        </a>
         <section class="hero container">
             <img class="hero__img HiddenToBottom delay1" src="images/DSC_0144.JPG" alt="">
             <div class="text-container">
@@ -480,7 +477,13 @@
                 </div>
             </div>
         </section>
-        
+                
+        <!-- Floating WhatsApp Button -->
+        <section class="section">
+            <a href="#" target="_blank" class="whatsapp-button" id="whatsappButton" >
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
+            </a>
+        </section>
     </main>
     <footer class="">
         <div class="footer__content-wrap">
@@ -495,6 +498,7 @@
     <script src="scripts/projects.js"></script>
     <script src="scripts/sheet.js"></script>
     <script src="scripts/whatsappBtn.js"></script>
+    <script src="scripts/cursorCustom.js"></script>
     <script>
         const loader = document.querySelector(`.loader`);
         const pageContent =document.querySelector(`#body`);
