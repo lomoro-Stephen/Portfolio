@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="styles/components//popup.css">
     <link rel="stylesheet" href="styles/animation.css">
     <link rel="stylesheet" href="styles/utils.css">
+    <link rel="stylesheet" href="/styles/whatsappBtn.css">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-VPB66VERNY"></script>
     <script>
@@ -41,13 +42,15 @@
     <div class="loader">
         <svg viewBox="0 0 400 160">
             <text x="50%" y="50%" dy="0.32em" text-anchor="middle" class="text-body">
-                Stephix
+                Stephen
             </text>
             <text x="50%" y="50%" dy="0.32em" dx="2em" text-anchor="middle" class="text-body">
                 .
             </text>
         </svg>
     </div>
+    
+   
     <header class="header container">
         <nav class="navBar">
             <div class="logo-wrap"><span>Stephen.</span></div>
@@ -84,6 +87,9 @@
     </div>
     <!----------------end mobile nav-->
     <main>
+        <a href="https://wa.me/+211929925502" id="whatsappButton" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
+        </a>
         <section class="hero container">
             <img class="hero__img HiddenToBottom delay1" src="images/DSC_0144.JPG" alt="">
             <div class="text-container">
@@ -102,7 +108,7 @@
             <div class=" hiddenContentFromTop">
                 <a  class="hero__btn  btn" href="#hireForm">Hire me</a>
             </div>
-           
+            
         </section>
         <section id="about" class="about container section">
             <div class="about__content__container overflowHidden">
@@ -474,6 +480,7 @@
                 </div>
             </div>
         </section>
+        
     </main>
     <footer class="">
         <div class="footer__content-wrap">
@@ -481,11 +488,13 @@
             <h5 class="footer__info">Designed By Lomoro Stephen</h5>
         </div>
     </footer>
+
     <script src="scripts/main.js"></script>
     <script src="scripts/mobile_js.js"></script>
     <script src="scripts/about.js"></script>
     <script src="scripts/projects.js"></script>
     <script src="scripts/sheet.js"></script>
+    <script src="scripts/whatsappBtn.js"></script>
     <script>
         const loader = document.querySelector(`.loader`);
         const pageContent =document.querySelector(`#body`);

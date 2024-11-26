@@ -54,9 +54,6 @@ function closeForm() {
 
 //popup
 function submitHireForm() {
-    // You can add your own logic to handle the form submission
-    // For simplicity, this example just displays the popup
-
     // Display the custom popup
     document.getElementById('successPopup').style.display = 'block';
     // Close the popup after 5 minutes (300,000 milliseconds)
