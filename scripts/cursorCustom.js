@@ -12,7 +12,7 @@ document.addEventListener("mousemove", (e) => {
 document.addEventListener("scroll", () => {
     const scrollPosition = window.scrollY;
     const glowSize = Math.min(50 + scrollPosition / 20, 100);
-    const glowOpacity = Math.min(0.6 + scrollPosition / 500, 1); 
+    const glowOpacity = Math.min(0.6 + scrollPosition / 500, 1);
 
     // Apply the changes to the cursor
     cursor.style.width = `${glowSize}px`;

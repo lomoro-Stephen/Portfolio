@@ -37,7 +37,6 @@
     </script>
 </head>
 <body id="body">
-    <!---<div class="customCursor"></div>--->
     <!-- Loader -->
     <div class="loader">
         <svg viewBox="0 0 400 160">
@@ -53,22 +52,7 @@
    
     <header class="header container">
         <nav class="navBar">
-            <div class="logo-wrap"><span>Stephen.</span></div>
-            <div class="nav-bar-wrap">
-                <ul class="header__menu">
-                    <li><a class="header__link" href="#hero">Home</a></li>
-                    <li><a class="header__link" href="#about">About</a></li>
-                    <li><a class="header__link" href="#skills">Skills</a></li>
-                    <li><a class="header__link" href="#services">Services</a></li>
-                    <li><a class="header__link" href="#contact">contact</a></li>
-                    <li class="header__line"></li>
-                    <li class="bulb"><i id="theme-toggle" class="fa-regular fa-lightbulb"></i></li>
-                    <li><a class="header__resume btn"  href="resume/Curriculum vitae.docx">Resume<i class="fa-solid fa-download"></i></a></li>
-                </ul>
-                <button class="header__bars">
-                    <i class="fa-solid fa-bars-staggered"></i>
-                </button>
-            </div>
+            
         </nav>
     </header>
     <!---------------- start mobile nav-->
@@ -87,187 +71,19 @@
     </div>
     <!----------------end mobile nav-->
     <main>
-        <section class="hero container">
-            <img class="hero__img HiddenToBottom delay1" src="images/DSC_0144.JPG" alt="">
-            <div class="text-container">
-                <h2 id="typed-text" class="hero__subtitle subtitle1 hiddenContentFromTop delay3">Hi <span>&#128075;</span>,Am</h2>
-                <h3 id="typed-text" class="hero__subtitle hiddenContentFromTop delay4">Lomoro Stephen</h3>
-            </div>
-            <div class="typing__text-wrap hiddenContentFromTop delay5">
-                <h1 id="typewriter" class="hero__title"></h1>
-            </div>
-            <div class="text-container hiddenContentFromTop delay5">
-                <p class="hero__description">
-                    A passionate <strong>Front-End , Graphics Designer</strong> and a <strong>UI/UX</strong> enthusiast
-                    specialized in building pixel-perfect interactive websites/ applications 
-                </p>
-            </div>
-            <div class=" hiddenContentFromTop">
-                <a  class="hero__btn  btn" href="#hireForm">Hire me</a>
-            </div>
-            
+        <section class="hero container" id="hero">
         </section>
         <section id="about" class="about container section">
             <div class="about__content__container overflowHidden">
-                <div class="about__content">
-                    <h2 class="about__title hiddenLeft">About me</h2>
-                    <p class="about__description hiddenLeft">
-                        Welcome to my digital realm! I'm 
-                        a passionate Front-End Web Developer, Graphic Designer and a UI/UX Designer
-                        with a relentless drive for innovation 
-                        and a love for turning ideas into immersive experiences. 
-                        Join me as we explore the intersection of creativity and technology.
-                    </p>
-                    <p class="about__description hiddenLeft">
-                        I believe that every project is an opportunity for storytelling. 
-                        By combining technical expertise with a touch of artistry, 
-                        I bring ideas to life, creating memorable experiences that resonate with audiences. 
-                        Quality is not just a goal; it's the foundation of my work. 
-                    </p>
-                </div>
-                <div class="about__img_wrapper hiddenImage">
-                    <img class="about__image lazy loading" 
-                    src="https://fakeimg.pl/2000"
-                    data-src="images/DSC_0144.JPG" 
-                    alt="profile-section profile">
-                </div>
             </div>
         </section>
         <section id="skills" class="skills container section">
-                <div class="skills__content-wrap">
-                    <div class="content">
-                        <div class="div hiddenRight">
-                            <h3 class="skills__subtitle">Skill Sets</h3>
-                        </div>
-                        <div class="skills__ul__wrap">
-                            <div class="skill-sets overflowHidden">
-                                <div class="border-right ">
-                                    <p class="sub-title-p hiddenLeft">programming Technologies</p>
-                                    <ul class="skills__ul hiddenRight delay1">
-                                        <li class="skills__list">
-                                            <img src="images/skills-icons/icons8-html-48.png" alt="">
-                                        </li>
-                                        <li class="skills__list">
-                                            <img src="images/skills-icons/icons8-css-48.png" alt="">
-                                        </li>
-                                        <li class="skills__list">
-                                            <img src="images/skills-icons/icons8-javascript-48.png" alt="">
-                                        </li>
-                                        <li class="skills__list php">
-                                            <img src="images/skills-icons/icons8-php-24.png" alt="">
-                                        </li>
-                                        <li class="skills__list">
-                                            <img src="images/skills-icons/icons8-mysql-48.png" alt="">
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div>
-                                    <p class="sub-title-p hiddenLeft">Design Technologies</p>
-                                    <ul class="skills__ul hiddenRight">
-                                        <li class="skills__list">
-                                            <img src="images/skills-icons/icons8-illustrator-48.png" alt="">
-                                        </li>
-                                        <li class="skills__list">
-                                            <img src="images/skills-icons/icons8-photoshop-48 (1).png" alt="">
-                                        </li>
-                                        <li class="skills__list">
-                                            <img src="images/skills-icons/icons8-figma-48.png" alt="">
-                                        </li>
-                                        <li class="skills__list">
-                                            <img src="images/skills-icons/icons8-adobe-xd-48.png" alt="">
-                                        </li>
-                                        <li class="skills__list">
-                                            <img src="images/skills-icons/icons8-adobe-indesign.gif" alt="">
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="skills_info overflowHidden">
-                                <p class="hiddenLeft">
-                                    Proficient in website development and design, adept at utilizing HTML, CSS, JavaScript,
-                                     bootstrap qnd jQuery to create visually appealing and user-friendly websites. 
-                                     Skilled in graphic design using Adobe Photoshop, Illustrator, and 
-                                     InDesign to produce captivating visuals such as logos and banners. 
-                                     Experienced in crafting engaging and SEO-optimized content for websites 
-                                     and blogs, employing research and narrative skills to drive traffic and
-                                    conversions.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="div image  hiddenBtnToBottom">
-                        <img 
-                        class="skills__image lazy loading" 
-                        src="https://fakeimg.pl/2000" 
-                        data-src="images/m4.png" 
-                        alt="skills picture"/>
-                    </div>
-                </div>
+                
         </section>
         <section id="services" class="work container section">
-            <div class="work-info">
-                <div class="work__header__container">
-                    <h2 class="work__title text__center HiddenToBottom delay1">What i Do?</h2>
-                    <p class="works__intro HiddenToBottom delay2">
-                        I pride myself on delivering top-notch solutions that exceed 
-                        client expectations. With a passion for innovation and creativity,
-                         i offer a comprehensive suite of services tailored to meet your digital needs
-                    </p>
-                </div>
-                
-                <div class="service-wrap cards">
-                    <div class="service-card card HiddenToBottom delay3">
-                        <div class="imageDiv">
-                            <i class="fa-solid fa-pen-nib fa-2x"></i>
-                        </div>
-                        <h5 class="card__title">Graphics Design</h5>
-                        <p class="CardText">
-                            With my graphics design service, I specialize in creating 
-                            captivating visuals and impactful designs that embody your
-                             unique brand identity. From crafting striking logos to designing
-                              compelling marketing collateral, I'm dedicated to bringing your 
-                              vision to life with creativity and precision. Let's collaborate to
-                               make your 
-                            brand stand out and leave a lasting impression on your audience.
-                            </P>
-                    </div>
-                    <div class="service-card card HiddenToBottom delay2">
-                        <div class="imageDiv">
-                            <i class="fa-solid fa-laptop-code fa-2x"></i>
-                        </div>
-                        <h5 class="card__title">Website Design</h5>
-                        <p class="CardText">
-                            As a website design expert, I'm committed to ensuring your 
-                            online presence reflects the essence of your brand. I'll work 
-                            closely with you to develop a visually stunning and user-friendly 
-                            website that captivates visitors and drives conversions. Whether 
-                            it's a new site or a redesign, I'll leverage my skills and expertise 
-                            to create a digital
-                             platform that elevates your brand and delivers an exceptional user
-                             experience. 
-                            </p>
-                        </P>
-                    </div>
-                    <div class="service-card card HiddenToBottom delay1">
-                        <div class="imageDiv">
-                            <i class="fa-solid fa-display fa-2x"></i>
-                        </div>
-                        <h5 class="card__title">Ui & Ux Design</h5>
-                        <p class="CardText">
-                            With my UX & UI design service, I focus on crafting 
-                            intuitive and engaging digital experiences that resonate 
-                            with your audience. From wireframing to final implementation,
-                             I prioritize user needs and behaviors to create seamless 
-                             interfaces that are both functional and visually appealing.
-                              Together, let's ensure your product or application
-                             delivers maximum impact and satisfaction to your users.
-                        </P>
-                    </div>
-                </div>
-            </div>
+            
         </section>
-        <!-- <section class="section">
+        <section class="section">
             <div class="projects-container">
                 <div class="project-wrap">
                     <div class="tab-list HiddenToBottom">
@@ -281,31 +97,35 @@
                     <div class="project-category logos active">
                         <div class="image_box overflowHidden">
                             <div class="card HiddenToBottom delay3">
-                                <div class="blog-image-wrap"><img src="images/projects/343.png" alt=""></div>
+                                <div class="blog-image-wrap">
+                                    <img src="images/realestates.PNG" alt="">
+                                </div>
                                 <div class="blog-story-wrap">
                                     <h4 class="blog-title">
-                                        Latest from the lab: Introdu
+                                        RealEstates Landing page
                                     </h4>
-                                    <p class="blog-info">
-                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita natus esse accusamus rerum a tempora sed est earum eius, laudantium similique, repellat sunt blanditiis dignissimos mollitia officiis repudiandae harum ullam?
-                                    </p>
-                                    <button class="readmore-btn">Read More</button>
+                                    <div>
+                                        <button class="readmore-btn">
+                                            <a href="https://lomoro-stephen.github.io/RealEstates_website/">visit Website</a>
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                             <div class="card HiddenToBottom delay2">
-                                <div class="blog-image-wrap"><img src="images/projects/343.png" alt=""></div>
+                                <div class="blog-image-wrap"><img src="images/m3.png" alt=""></div>
                                 <div class="blog-story-wrap">
                                     <h4 class="blog-title">
-                                        Latest from the lab: Introdu
+                                        R
                                     </h4>
                                     <p class="blog-info">
-                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita natus esse accusamus rerum a tempora sed est earum eius, laudantium similique, repellat sunt blanditiis dignissimos mollitia officiis repudiandae harum ullam?
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                        Expedita natus esse accusamus rerum a tempora sed est earum eius, 
                                     </p>
                                     <button class="readmore-btn">Read More</button>
                                 </div>
                             </div>
                             <div class="card HiddenToBottom delay1">
-                                <div class="blog-image-wrap"><img src="images/projects/343.png" alt=""></div>
+                                <div class="blog-image-wrap"><img src="images/m4.png" alt=""></div>
                                 <div class="blog-story-wrap">
                                     <h4 class="blog-title">
                                         Latest from the lab: Introdu
@@ -316,7 +136,7 @@
                                     <button class="readmore-btn">Read More</button>
                                 </div>
                             </div>
-                            <div class="card HiddenToBottom delay3">
+                            <!-- <div class="card HiddenToBottom delay3">
                                 <div class="blog-image-wrap"><img src="Assets/blog-images/img-1.png" alt=""></div>
                                 <div class="blog-story-wrap">
                                     <h4 class="blog-title">
@@ -351,7 +171,7 @@
                                     </p>
                                     <button class="readmore-btn">Read More</button>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="btnBox">
                             <a href="#" class="seeMoreBtn btn" id="loadMore">
@@ -416,7 +236,7 @@
                     </div>
                 </div>
             </div>            
-        </section> -->
+        </section>
         <section id="contact" class="contact container section">
 
             <div class="contact_wrap overflowHidden">
@@ -485,20 +305,15 @@
             </a>
         </section>
     </main>
-    <footer class="">
-        <div class="footer__content-wrap">
-            <h5 class="footer__info">&copy;2024 Stephen.   <span>All rights Reserved</span></h5>
-            <h5 class="footer__info">Designed By Lomoro Stephen</h5>
-        </div>
+    <footer class="footer">
     </footer>
-
-    <script src="scripts/main.js"></script>
-    <script src="scripts/mobile_js.js"></script>
-    <script src="scripts/about.js"></script>
-    <script src="scripts/projects.js"></script>
-    <script src="scripts/sheet.js"></script>
-    <script src="scripts/whatsappBtn.js"></script>
-    <script src="scripts/cursorCustom.js"></script>
+    <script type="module" src="components/navbar.js"></script>
+    <script type="module" src="components/hero.js"></script>
+    <script type="module" src="components/about.js"></script>
+    <script type="module" src="components/skills.js"></script>
+    <script type="module" src="components/services.js"></script>
+    <script type="module" src="components/footer.js"></script>
+    <script src="scripts/loadscripts.js"></script>
     <script>
         const loader = document.querySelector(`.loader`);
         const pageContent =document.querySelector(`#body`);
