@@ -41,27 +41,13 @@ lazyImage.forEach(img => {
     observer.observe(img);
 });
 
-
-
-function openForm() {
-    document.getElementById("myForm").style.display = "block";
-    setTimeout(closeForm, 500000); 
-}
-
-function closeForm() {
-    document.getElementById("myForm").style.display = "none";
-}
-
-//popup
-function submitHireForm() {
-    document.getElementById('successPopup').style.display = 'block';
-    setTimeout(closeThanksPopup, 500000);
-}
-
-function closeThanksPopup() {
-    document.getElementById('successPopup').style.display = 'none';
-
-}
+//loader
+const loader = document.querySelector(`.loader`);
+const pageContent =document.querySelector(`#body`);
+window.addEventListener('load', ()=>{
+    loader.classList.add('hiddenloader');
+    pageContent.classList.add('showloader');
+});
 
 
 //observer

@@ -5,11 +5,9 @@
         <div class="about__content">
             <h2 class="about__title hiddenLeft">About me</h2>
             <p class="about__description hiddenLeft">
-                Welcome to my digital realm! I'm 
-                a passionate Front-End Web Developer, Graphic Designer and a UI/UX Designer
+                I'm a passionate Front-End Web Developer, Graphic Designer and a UI/UX Designer
                 with a relentless drive for innovation 
                 and a love for turning ideas into immersive experiences. 
-                Join me as we explore the intersection of creativity and technology.
             </p>
             <p class="about__description hiddenLeft">
                 I believe that every project is an opportunity for storytelling. 

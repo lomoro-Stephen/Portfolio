@@ -12,7 +12,7 @@
                 <li><a class="header__link" href="#contact">contact</a></li>
                 <li class="header__line"></li>
                 <li class="bulb"><i id="theme-toggle" class="fa-regular fa-lightbulb"></i></li>
-                <li><a class="header__resume btn"  href="resume/Curriculum vitae.docx">Resume<i class="fa-solid fa-download"></i></a></li>
+                <li><a class="header__resume btn"  href="resume/CV24.pdf">Resume<i class="fa-solid fa-download"></i></a></li>
             </ul>
             <button class="header__bars">
                 <i class="fa-solid fa-bars-staggered"></i>
